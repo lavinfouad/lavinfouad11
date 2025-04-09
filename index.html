@@ -1,0 +1,133 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.8;
+            background: #6b705c;
+            color: #a5a58d;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background: #555;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 50%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Reduced shadow width */
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #cb997e;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 500px; /* Reduced width */
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.329);
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .container img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #f1f1f1;
+            transition: transform 0.3s ease;
+        }
+
+        .container img:hover {
+            transform: scale(1.1);
+        }
+
+        .container h2 {
+            color: #f1f1f1;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            font-size: 1em;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #6b705c;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            width: 80%; /* Reduced width for a vertical layout */
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Website</h1>
+    </header>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        <h2>Lavin Fouad Abdulqadir</h2>
+        <p>Welcome to my personal space on the web.</p>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <footer>
+        &copy; 2025 Personal Website. All rights reserved. | <a href="#">Privacy Policy</a>
+    </footer>
+</body>
+</html>
+
+
